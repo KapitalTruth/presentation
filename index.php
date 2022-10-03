@@ -10,7 +10,7 @@ $lang_isocode = isset($_GET['lang']) && $_GET['lang'] ? $_GET['lang'] : 'es';
 $aux = mb_substr($config['base_url'], mb_strpos($config['base_url'], '://') + 3);
 if(mb_substr($aux, 0, mb_strpos($aux, '/')) != $_SERVER['HTTP_HOST'])
 {
-	header('HTTP/1.1 301 Moved Permanently'); 
+	header('HTTP/1.1 301 Moved Permanently');
 	header('Location: '.$config['base_url'].'presentacion/'.$lang_isocode.'/');
 }
 
@@ -71,6 +71,7 @@ function l($q)
 			<div class="text-right">
 				<a href="es/" title="Idioma español"><img src="img/flags/es.jpg" alt="Español" /></a>
 				<a href="en/" title="English language"><img src="img/flags/en.jpg" alt="English" /></a>
+                <a href="cn/" title="中文"><img src="img/flags/cn.jpg" alt="中文" /></a>
 				<a href="ca/" title="Idioma català"><img src="img/flags/ca.jpg" alt="Català" /></a>
 			</div>
 			<ul class="nav nav-tabs" role="tablist" style="margin-top:-2em">

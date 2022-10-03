@@ -4,7 +4,7 @@ deny from all
 
 RewriteEngine On
 
-RewriteCond %{SERVER_PORT} 80 
+RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://www.kapitaltruth.org/presentacion/$1 [R,L]
 
-RewriteRule ^(es|en|ca)/?$ index.php?lang=$1 [L]
+RewriteRule ^(es|en|cn|ca)/?$ index.php?lang=$1 [L]
