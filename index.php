@@ -1,4 +1,12 @@
 <?php
+/**
+ * Presentation of Kapital Truth,
+ * educational software for the creation and use of a social electronic currency.
+ *
+ * @author José Carlos PHP
+ * https://josecarlosphp.com
+ */
+
 require 'config.php';
 
 define('KPTL_SIM_VERSION', '1.0');
