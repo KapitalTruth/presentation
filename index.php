@@ -102,13 +102,29 @@ function l($q)
 				</div>
 				<div class="tab-pane fade" id="informacion">
 					<div class="panel-body">
-						<div class="panel panel-default">
+						<div class="panel panel-info">
 							<div class="panel-heading">
 								<h3 class="panel-title"><?php echo l('informacion_que-es'); ?></h3>
 							</div>
 							<div class="panel-body">
 								<p>
 									<?php echo l('informacion_que-es_texto'); ?>
+								</p>
+							</div>
+						</div>
+                        <div class="panel panel-warning">
+							<div class="panel-heading">
+								<h3 class="panel-title"><?php echo l('informacion_dinero-de-verdad'); ?></h3>
+							</div>
+							<div class="panel-body">
+								<p>
+									<?php echo l('informacion_dinero-de-verdad_texto1'); ?>
+								</p>
+								<p>
+									<?php echo l('informacion_dinero-de-verdad_texto2'); ?>
+								</p>
+                                <p>
+									<?php echo l('informacion_dinero-de-verdad_texto3'); ?>
 								</p>
 							</div>
 						</div>
@@ -125,7 +141,7 @@ function l($q)
 								</p>
 							</div>
 						</div>
-						<?php /* <div class="panel panel-default">
+                        <?php /* <div class="panel panel-default">
 							<div class="panel-heading">
 								<h3 class="panel-title">¿Cómo obtener el programa?</h3>
 							</div>

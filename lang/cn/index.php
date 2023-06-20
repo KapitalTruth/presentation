@@ -26,6 +26,10 @@ $lang['informacion_que-es_texto'] = '它是一个<strong>网络应用程序</str
 
 	每个用户自动收到一定数量的货币，用于其他人对他的积极<strong>评估</strong>。
 	使用这种货币，您可以向其他用户支付在现实世界中收到的商品或服务。';
+$lang['informacion_dinero-de-verdad'] = '真钱？';
+$lang['informacion_dinero-de-verdad_texto1'] = '这是一个相当华而不实的表达，所以需要澄清一下，以免混淆。';
+$lang['informacion_dinero-de-verdad_texto2'] = '<strong>Kapital Truth</strong> 不是<i>加密货币</i>，也不是<i>交易</i> 平台，也不是您可以致富的东西，远非如此。它是一个网络应用程序，可以免费使用和自由分发，因此，在一个相当小的社区内，财富（宝藏）以虚拟货币的形式分配给用户，根据他们对自己和他人的评价.';
+$lang['informacion_dinero-de-verdad_texto3'] = '评估是根据一系列问题进行的，这些问题可以分为几类，并且由系统管理员或管理员建立，即 Kapital Truth Web 应用程序的这个特定实例。每个用户最初都会回答这些问题，但都是关于他自己的。这将作为与其他用户对它的评价（回应）进行比较的基础。并且，从这种比较中，通过自我评估与他人评估的重合，每个用户通过积分或奖励的方式获得一定数量的货币，因此产生了<strong>金钱</strong>的概念。因此，用户的诚意非常重要，其他人对他的善意也很重要，因此才有了<strong>真实</strong>的概念。';
 $lang['informacion_como-funciona'] = '如何使用?';
 $lang['informacion_como-funciona_texto1'] = '有一个<strong>宝藏</strong>有固定数量的货币，这是系统中以这种货币表示的货币总量。每个用户回答一系列关于其他人的问题，与他们的行为有关，在里面或社区之外。根据这些评估，在所有用户之间进行<strong>硬币分配</strong>，奖励积极的行为。这种分配是<strong>自动和定期</strong>进行的，此外，任何用户可以随着时间的推移改变他们的估值，以便与每个人相对应的货币根据相互估值的变化而波动。';
 $lang['informacion_como-funciona_texto2'] = '使用用户收到的这笔钱，他们可以通过在系统中注册的<strong>转帐</strong>操作<strong>对方支付</strong>支付在现实世界中收到的商品或服务。 转移使用户获得的奖金具有真正的效用，最终成为<strong>奖励</strong>（或维持）他们在社区中的行为。';
@@ -93,10 +97,10 @@ $lang['aviso-legal_autor_texto'] = '本演示文稿的概念，以及资本真�
 $lang['aviso-legal_finalidad'] = '目的';
 $lang['aviso-legal_finalidad_texto'] = '这种以微型网站形式呈现的目的是让 资本诚意 软件广为人知，并通过使用它的简化模型（模拟器）来促进对它的理解。、';
 $lang['aviso-legal_recursos-empleados'] = '可使用资源';
-$lang['aviso-legal_recursos-empleados_texto1'] = 'Todos los recursos utilizados son propios o bien se cuenta con las debidas autorizaciones para ello.';
-$lang['aviso-legal_recursos-empleados_texto2'] = 'Se utilizan imágenes con licencia de <a href="http://www.123rf.com/profile_antoshkaforever">antoshkaforever / 123RF Stock Photo</a>,
-	que cuentan con su propio copyright, y la fuente <a href="http://www.dafont.com/emoticons.font">TTF emoticons</a> bajo licencia Open Font,
-	por George Edward Purdy, de Purdy Design™.';
+$lang['aviso-legal_recursos-empleados_texto1'] = '使用的所有资源都是他们自己的，或者他们拥有适当的授权。';
+$lang['aviso-legal_recursos-empleados_texto2'] = '使用来自 <a href="http://www.123rf.com/profile_antoshkaforever">antoshkaforever / 123RF Stock Photo</a> 的许可图像,
+	这些图像拥有自己的版权, 和 <a href="http://www.dafont.com/emoticons.font">TTF emoticons</a> 字体 在开放字体许可下 (Open Font),
+	由 Purdy Design™ 的 George Edward Purdy 设计。';
 $lang['aviso-legal_recursos-empleados_texto3'] = '开发是使用免费和开源软件工具进行的。';
 $lang['aviso-legal_copia-y-distribucion'] = '复制和分发';
 $lang['aviso-legal_copia-y-distribucion_texto'] = '所有者允许全部或部分免费复制此演示文稿的文本和图像，前提是提及其来源，并且除了演示文稿本身之外没有其他目的：宣传资本真理计划。
